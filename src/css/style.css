@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -9,7 +9,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background: url(https://images.unsplash.com/photo-1504711331083-9c895941bf81?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) bottom no-repeat;
+    background: url(https://images.unsplash.com/photo-1528184039930-bd03972bd974?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) bottom no-repeat;
     background-size: cover;
 }
 
@@ -18,6 +18,17 @@ h1 {
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* #content{
+    background-color: #f4a0a0;
+    padding: 50px 0 32px;
+}
+
+.news1{
+    float: center;
+    background-color: #fff;
+    padding: 50px 0 32px;
+} */
 
 .news {
     background-color: #fff;
@@ -52,7 +63,7 @@ article h2 {
 
 article img {
     width: 100%;
-    height: 300px;
+    height: 500px;
     object-fit: cover;
 }
 
