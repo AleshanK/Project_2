@@ -18,7 +18,14 @@ h1 {
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
 }
+section article:nth-child(even) {
+    background-color:rgb(98, 145, 192);
+}
 
+section article:nth-child(-n+2)::before {
+    content: "New";
+    background-color: aqua;
+}
 /* #content{
     background-color: #f4a0a0;
     padding: 50px 0 32px;
@@ -45,7 +52,12 @@ article {
 article a {
     color: rgb(33, 37, 41);
     text-decoration: none;
-}
+} 
+
+/* article a:nth-child(even) {
+    color: aqua;
+    text-decoration: none;
+} */
 
 article a:hover {
     color: #0085a1;
